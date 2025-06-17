@@ -1,0 +1,24 @@
+import java.util.*;
+public class Integratedallprograms{
+	public static void main(String args[])
+	{
+		Scanner in=new Scanner(System.in);
+		System.out.println("1:DSA\n2:CrudOperations\n3:DynamicCRUD");
+		int ch=in.nextInt();
+		switch(ch)
+		{
+			case 1:
+			DSA.main(null);
+			break;
+			case 2:
+			CrudOperations1.main(null);
+			break;
+			case 3:
+			DynamicCRUD1.main(null);
+			break;
+			default:
+			System.out.println("invalid");
+		}
+	}
+}
+			
