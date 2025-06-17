@@ -1,0 +1,25 @@
+import java.util.*;
+public class IntegratedDSAcalculator{
+	public static void main(String args[])
+	{
+		Scanner in=new Scanner(System.in);
+		System.out.println("1:Arraycalculator\n2:Linkedlistcalculator\n3:queuecalculator");
+		int ch=in.nextInt();
+		switch(ch)
+		{
+			case 1:
+			Arraycalculator1.main(null);
+			break;
+			case 2:
+			Linkedlist1.main(null);
+			break;
+			case 3:
+			Queuecalculator1.main(null);
+			break;
+			default:
+			System.out.println("invalid");
+		}
+	}
+}
+			
+			
